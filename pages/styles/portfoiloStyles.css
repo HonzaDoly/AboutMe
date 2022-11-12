@@ -1,0 +1,21 @@
+html{
+    font-family: Bahnschrift;
+}
+#bodySection{
+    display: grid;
+    justify-content: center;
+}
+#bodySection img{
+    height: 200px;
+}
+.projekt{
+    display: grid;
+    width: 500px;
+}
+.projectInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.projectImage{
+    ima
+}

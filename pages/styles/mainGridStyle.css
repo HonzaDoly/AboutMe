@@ -1,0 +1,18 @@
+html{
+    font-family: Bahnschrift;
+}
+.mainMenu{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 10px;
+}
+.menuImage {
+    height: 30px;
+}
+.menuImage:hover{
+    transform: scale(1.7);
+    border-radius: 8px;
+    filter: invert();
+    background-color: white;
+}

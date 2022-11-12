@@ -1,0 +1,37 @@
+html{
+    font-family: Bahnschrift;
+    background-image: url("/resources/pozadi/Bez názvu-1.png");
+}
+
+h1{
+    font-size: 50px;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 135px;
+    gap: 45px;
+}
+
+#sections{
+    display: flex;
+    gap: 80px;
+}
+.sectionImage{
+    height: 90px;
+}
+.section:hover {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.section{
+    width: 130px;
+    padding: 5px;
+    margin: 2px;
+}
+.section:hover{
+    margin: 1px;
+}
+
