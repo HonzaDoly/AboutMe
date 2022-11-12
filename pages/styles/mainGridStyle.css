@@ -7,6 +7,7 @@ html{
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 30px;
+    background-color: white;
 }
 .menuImage {
     height: 30px;
@@ -22,4 +23,5 @@ h1{
     min-width: 400px;
     border-bottom: 1px grey solid;
     margin-bottom: 20px;
+    background-color: white;
 }
