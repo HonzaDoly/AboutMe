@@ -1,6 +1,4 @@
-html{
-    font-family: Bahnschrift;
-}
+
 #bodySection{
     display: grid;
     justify-content: center;
@@ -11,6 +9,7 @@ html{
     justify-content: space-between;
     width: 700px;
     border-bottom: 1px grey dashed;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .knowledge img{
@@ -39,14 +38,34 @@ html{
     padding: 0 5px;
     display: flex;
     height: 40px;
+    width: 100%;
+}
+.knowldgeInfo{
     width: 70%;
+    text-align: center;
+    display: grid;
+    align-content: start;
+}
+.progressInfo{
+    justify-content: center;
+    align-self: center;
+    margin-right: 0px;
+}
+.progressInfo h2{
+    color: white;
+    width: 40%;
+    border-radius: 100px;
+    background: black;
+    padding-top: 3px;
+    margin-left: 62%;
+    height: 30px;
 }
 
 .progressValue {
     animation: load0 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #fff;
+    background-image: linear-gradient(to right, #eeeeee, white);
     height: 30px;
 }
 

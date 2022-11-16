@@ -1,7 +1,3 @@
-html{
-    font-family: Bahnschrift;
-    background-image: url("/resources/pozadi/Bez názvu-1.png");
-}
 #bodySection{
     display: grid;
     justify-content: center;
@@ -12,6 +8,10 @@ html{
     display: grid;
     width: 700px;
     background-color: white;
+    transition: .2s;
+}
+.projekt:hover{
+    transform: scale(1.1) ;
 }
 .projectInfo{
     display: flex;

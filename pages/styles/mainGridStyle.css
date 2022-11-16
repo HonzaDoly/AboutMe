@@ -1,5 +1,6 @@
 html{
     font-family: Bahnschrift;
+    background-image: url("/resources/pozadi/Bez názvu-1.png");
 }
 .mainMenu{
     display: flex;
@@ -8,16 +9,17 @@ html{
     padding-top: 10px;
     padding-bottom: 30px;
     background-color: white;
+    transition: .2s;
 }
+
 .menuImage {
     height: 30px;
 }
 .menuImage:hover{
     transform: scale(1.7);
     border-radius: 8px;
-    filter: invert();
-    background-color: white;
 }
+
 h1{
     text-align: center;
     min-width: 400px;
