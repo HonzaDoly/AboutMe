@@ -1,3 +1,74 @@
 html{
     font-family: Bahnschrift;
 }
+#bodySection{
+    display: grid;
+    justify-content: center;
+    gap: 35px;
+}
+.knowledge{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    border-bottom: 1px grey dashed;
+}
+
+.knowledge img{
+    height: 100px;
+}
+.knowledge progress{
+    width: 65%;
+    height:40px;
+    margin-top: 32px;
+}
+.language{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.language h2{
+    margin-top: 2px;
+}
+
+.progress {
+    background: black;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 70%;
+}
+
+.progressValue {
+    animation: load0 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+}
+
+#progressJava{
+    width: 50%;
+}
+#progressPython{
+    width: 25%;
+}
+#progressSQL{
+    width: 30%;
+}
+#progressHTML{
+    width: 65%;
+}
+#progressCSS{
+    width: 50%;
+}
+#progressMaven{
+    width: 65%;
+}
+
+@keyframes load0 {
+    0% { width: 0; }
+}
