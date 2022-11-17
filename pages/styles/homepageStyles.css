@@ -1,8 +1,7 @@
 html{
     font-family: Bahnschrift;
-    background-image: url("/resources/pozadi/Bez názvu-1.png");
+    background-image: url("/../resources/pozadi/Bez názvu-1.png");
 }
-
 h1{
     font-size: 50px;
     margin-bottom: 0px;

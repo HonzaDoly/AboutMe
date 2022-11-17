@@ -1,3 +1,43 @@
-html{
-    font-family: Bahnschrift;
+body{
+    display: grid;
+    justify-content: center;
 }
+.contentSection{
+    width: 700px;
+    background: rgba(255, 255, 255, 0.7);
+    display: grid;
+    gap: 30px;
+}
+.educationSection{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.educationSection h2{
+    margin: 5px 5px 1px 5px;
+}
+.educationSection img{
+    width: 150px;
+}
+.education{
+    height: 255px;
+    width: 40%;
+    display: grid;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+p{
+    padding: 20px;
+}
+.educationInfo{
+    width: 40%;
+    padding-top: 65px;
+}
+.educationInfo p{
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px dashed black;
+    border-radius: 5px;
+}
+

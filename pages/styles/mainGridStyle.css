@@ -1,6 +1,6 @@
 html{
     font-family: Bahnschrift;
-    background-image: url("/resources/pozadi/Bez názvu-1.png");
+    background-image: url("/../resources/pozadi/Bez názvu-1.png");
 }
 .mainMenu{
     display: flex;
