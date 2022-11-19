@@ -28,3 +28,8 @@ h2{
     color: black;
     text-decoration: underline;
 }
+.contact:hover{
+    transform: scale(1.2);
+    border: 1px grey solid;
+    border-radius: 5px;
+}

@@ -19,6 +19,9 @@ body{
 .educationSection img{
     width: 150px;
 }
+.educationSection p{
+    text-align: center;
+}
 .education{
     height: 255px;
     width: 40%;
@@ -29,6 +32,7 @@ body{
 }
 p{
     padding: 20px;
+    text-align: justify;
 }
 .educationInfo{
     width: 40%;

@@ -1,6 +1,6 @@
 html{
     font-family: Bahnschrift;
-    background-image: url("/~dolj14/semestrálka/resources/pozadi/mainBackground.png");
+    background-image: url("/~dolj14/statickyWeb/resources/pozadi/mainBackground.png");
 }
 .mainMenu{
     display: flex;
