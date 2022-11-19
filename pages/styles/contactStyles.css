@@ -1,3 +1,30 @@
-html{
-    font-family: Bahnschrift;
+body{
+    display: grid;
+    justify-content: center;
+}
+.contactSection{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    margin: 0px 15px 0px 15px;
+}
+.contactDetail{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.contact{
+    margin-top: 20px;
+    width: 32%;
+    text-align: center;
+}
+.contact img{
+    margin: auto;
+}
+h2{
+    color: black;
+    text-decoration: underline;
 }

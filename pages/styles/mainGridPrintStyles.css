@@ -1,0 +1,15 @@
+html{
+    font-family: Bahnschrift;
+    background-image: url("/../resources/pozadi/mainBackground.png");
+}
+.mainMenu{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    min-width: 400px;
+    border-bottom: 1px grey solid;
+    margin-bottom: 20px;
+    background-color: white;
+}
